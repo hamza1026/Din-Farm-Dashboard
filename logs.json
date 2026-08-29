@@ -12,7 +12,8 @@
     "solarPower": 180,
     "load": 181,
     "remarks": "Grid healthy, WAPDA+Solar feeding load, BESS charging from PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_0_2026-08-07_13:00"
   },
   {
     "date": "2026-08-07",
@@ -27,7 +28,8 @@
     "solarPower": 392,
     "load": 178,
     "remarks": "Grid Unhealthy, Solar feeding Load & Carge Battery as well",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_1_2026-08-07_13:45"
   },
   {
     "date": "2026-08-07",
@@ -42,7 +44,8 @@
     "solarPower": 231,
     "load": 178,
     "remarks": "Grid healthy, WAPDA+Solar feeding load, BESS charging from PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_2_2026-08-07_14:02"
   },
   {
     "date": "2026-08-07",
@@ -57,7 +60,8 @@
     "solarPower": 34,
     "load": 173,
     "remarks": "Grid healthy, WAPDA+Solar feeding load, BESS is in Idle condition due to low PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_3_2026-08-07_18:00"
   },
   {
     "date": "2026-08-07",
@@ -72,7 +76,8 @@
     "solarPower": 0,
     "load": 165,
     "remarks": "Grid Unhealthy, BESS Feeding Load - Discahrging",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_4_2026-08-07_19:20"
   },
   {
     "date": "2026-08-07",
@@ -87,7 +92,8 @@
     "solarPower": 0,
     "load": 158,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in Idle condition due to 0 PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_5_2026-08-07_20:20"
   },
   {
     "date": "2026-08-08",
@@ -102,7 +108,8 @@
     "solarPower": 331,
     "load": 178,
     "remarks": "Grid healthy, WAPDA+Solar feeding load, BESS charging from PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_6_2026-08-08_09:45"
   },
   {
     "date": "2026-08-08",
@@ -117,7 +124,8 @@
     "solarPower": 175,
     "load": 181,
     "remarks": "Grid healthy, WAPDA+Solar feeding load, BESS is in idle due to Max SOC",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_7_2026-08-08_10:15"
   },
   {
     "date": "2026-08-08",
@@ -132,7 +140,8 @@
     "solarPower": 138,
     "load": 186,
     "remarks": "Grid unhealthy, BESS+Solar feeding load, BESS is discharging as PV is not enough due to cloudy weather",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_8_2026-08-08_11:35"
   },
   {
     "date": "2026-08-08",
@@ -147,7 +156,8 @@
     "solarPower": 139,
     "load": 188,
     "remarks": "Grid healthy, WAPDA+Solar feeding load, BESS is in idle due to Max SOC",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_9_2026-08-08_11:45"
   },
   {
     "date": "2026-08-08",
@@ -162,7 +172,8 @@
     "solarPower": 0,
     "load": 153,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is discharging",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_10_2026-08-08_19:15"
   },
   {
     "date": "2026-08-08",
@@ -177,7 +188,8 @@
     "solarPower": 0,
     "load": 141,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in Idle condition due to 0 PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_11_2026-08-08_20:15"
   },
   {
     "date": "2026-08-08",
@@ -192,7 +204,8 @@
     "solarPower": 0,
     "load": 143,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is discharging",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_12_2026-08-08_22:15"
   },
   {
     "date": "2026-08-08",
@@ -207,7 +220,8 @@
     "solarPower": 0,
     "load": 131,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in Idle condition due to 0 PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_13_2026-08-08_23:15"
   },
   {
     "date": "2026-08-09",
@@ -222,7 +236,8 @@
     "solarPower": 469,
     "load": 162,
     "remarks": "Grid healthy, WAPDA+Solar feeding load, BESS charging from PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_14_2026-08-09_13:45"
   },
   {
     "date": "2026-08-09",
@@ -237,7 +252,8 @@
     "solarPower": 65,
     "load": 155,
     "remarks": "Grid healthy, WAPDA+Solar feeding load, BESS is in Idle condition due to Max SOC, Weather was cloudy",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_15_2026-08-09_17:45"
   },
   {
     "date": "2026-08-09",
@@ -252,7 +268,8 @@
     "solarPower": 0,
     "load": 158,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is discharging",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_16_2026-08-09_19:15"
   },
   {
     "date": "2026-08-09",
@@ -267,7 +284,8 @@
     "solarPower": 0,
     "load": 149,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in Idle condition due to 0 PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_17_2026-08-09_20:15"
   },
   {
     "date": "2026-08-09",
@@ -282,7 +300,8 @@
     "solarPower": 0,
     "load": 154,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is discharging",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_18_2026-08-09_21:10"
   },
   {
     "date": "2026-08-09",
@@ -297,7 +316,8 @@
     "solarPower": 0,
     "load": 157,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in Idle condition due to 0 PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_19_2026-08-09_21:25"
   },
   {
     "date": "2026-08-09",
@@ -312,7 +332,8 @@
     "solarPower": 0,
     "load": 153,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is discharging",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_20_2026-08-09_22:15"
   },
   {
     "date": "2026-08-09",
@@ -327,7 +348,8 @@
     "solarPower": 0,
     "load": 147,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in Idle condition due to 0 PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_21_2026-08-09_23:15"
   },
   {
     "date": "2026-08-10",
@@ -342,7 +364,8 @@
     "solarPower": 380,
     "load": 207,
     "remarks": "Grid healthy, WAPDA+Solar feeding load, BESS charging from PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_22_2026-08-10_12:00"
   },
   {
     "date": "2026-08-10",
@@ -357,7 +380,8 @@
     "solarPower": 210,
     "load": 180,
     "remarks": "Grid unhealthy, Solar feeding load, BESS charging from PV",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_23_2026-08-10_14:00"
   },
   {
     "date": "2026-08-10",
@@ -372,7 +396,8 @@
     "solarPower": 175,
     "load": 185,
     "remarks": "Grid healthy, WAPDA+Solar feeding load, BESS is in idle condition as Max SOC achieved",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_24_2026-08-10_14:30"
   },
   {
     "date": "2026-08-10",
@@ -387,7 +412,8 @@
     "solarPower": 0,
     "load": 176,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is discharging as PV is unavailable",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_25_2026-08-10_19:15"
   },
   {
     "date": "2026-08-10",
@@ -402,7 +428,8 @@
     "solarPower": 0,
     "load": 167,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in idle condition.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_26_2026-08-10_20:15"
   },
   {
     "date": "2026-08-10",
@@ -417,7 +444,8 @@
     "solarPower": 0,
     "load": 185,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is discharging as PV is unavailable",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_27_2026-08-10_22:15"
   },
   {
     "date": "2026-08-10",
@@ -432,7 +460,8 @@
     "solarPower": 0,
     "load": 160,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in idle condition.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_28_2026-08-10_23:15"
   },
   {
     "date": "2026-08-11",
@@ -447,7 +476,8 @@
     "solarPower": 335,
     "load": 169,
     "remarks": "Grid Unhealthy, Solar feeding load, BESS is in charging condition.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_29_2026-08-11_09:45"
   },
   {
     "date": "2026-08-11",
@@ -462,7 +492,8 @@
     "solarPower": 329,
     "load": 177,
     "remarks": "Grid healthy, Solar & WAPDA feeding load, BESS is in charging condition.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_30_2026-08-11_09:55"
   },
   {
     "date": "2026-08-11",
@@ -477,7 +508,8 @@
     "solarPower": 176,
     "load": 194,
     "remarks": "Grid Unhealthy, Solar and BESS feeding load, BESS is in discharging condition due to low pv.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_31_2026-08-11_15:51"
   },
   {
     "date": "2026-08-11",
@@ -492,7 +524,8 @@
     "solarPower": 68,
     "load": 164,
     "remarks": "Grid healthy, Solar & WAPDA feeding load, BESS is in idle condition due to low pv. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_32_2026-08-11_16:20"
   },
   {
     "date": "2026-08-11",
@@ -507,7 +540,8 @@
     "solarPower": 0,
     "load": 186,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in discharging condition. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_33_2026-08-11_19:15"
   },
   {
     "date": "2026-08-11",
@@ -522,7 +556,8 @@
     "solarPower": 0,
     "load": 165,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in idle condition due to 0 pv. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_34_2026-08-11_20:15"
   },
   {
     "date": "2026-08-11",
@@ -537,7 +572,8 @@
     "solarPower": 0,
     "load": 167,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in discharging condition. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_35_2026-08-11_22:15"
   },
   {
     "date": "2026-08-11",
@@ -552,7 +588,8 @@
     "solarPower": 0,
     "load": 152,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in idle condition due to 0 pv. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_36_2026-08-11_23:15"
   },
   {
     "date": "2026-08-12",
@@ -567,7 +604,8 @@
     "solarPower": 335,
     "load": 205,
     "remarks": "Grid Unhealthy, Solar feeding load, BESS is in charging condition by solar.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_37_2026-08-12_10:15"
   },
   {
     "date": "2026-08-12",
@@ -582,7 +620,8 @@
     "solarPower": 169,
     "load": 170,
     "remarks": "Grid healthy, Solar & WAPDA feeding load, BESS is in idle condition due to max SOC.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_38_2026-08-12_12:40"
   },
   {
     "date": "2026-08-12",
@@ -597,7 +636,8 @@
     "solarPower": 0,
     "load": 177,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in discharging condition. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_39_2026-08-12_19:15"
   },
   {
     "date": "2026-08-12",
@@ -612,7 +652,8 @@
     "solarPower": 0,
     "load": 171,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in idle condition due to 0 pv. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_40_2026-08-12_20:15"
   },
   {
     "date": "2026-08-12",
@@ -627,7 +668,8 @@
     "solarPower": 0,
     "load": 175,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in discharging condition. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_41_2026-08-12_22:15"
   },
   {
     "date": "2026-08-12",
@@ -642,7 +684,8 @@
     "solarPower": 0,
     "load": 160,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in idle condition due to 0 pv. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_42_2026-08-12_23:15"
   },
   {
     "date": "2026-08-13",
@@ -657,7 +700,8 @@
     "solarPower": 319,
     "load": 194,
     "remarks": "Grid Unhealthy, Solar feeding load, BESS is in charging condition by solar.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_43_2026-08-13_11:00"
   },
   {
     "date": "2026-08-13",
@@ -672,7 +716,8 @@
     "solarPower": 174,
     "load": 205,
     "remarks": "Grid healthy, Solar and WAPDA feeding load, BESS is in charging condition by solar.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_44_2026-08-13_12:15"
   },
   {
     "date": "2026-08-13",
@@ -687,7 +732,8 @@
     "solarPower": 95,
     "load": 185,
     "remarks": "Grid unhealthy, Solar and BESS feeding load, BESS is in discharging condition because of low PV.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_45_2026-08-13_17:15"
   },
   {
     "date": "2026-08-13",
@@ -702,7 +748,8 @@
     "solarPower": 53,
     "load": 179,
     "remarks": "Grid healthy, Solar and WAPDA feeding load, BESS is in idle condition because of low PV.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_46_2026-08-13_17:50"
   },
   {
     "date": "2026-08-13",
@@ -717,7 +764,8 @@
     "solarPower": 0,
     "load": 163,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in discharging condition. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_47_2026-08-13_19:15"
   },
   {
     "date": "2026-08-13",
@@ -732,7 +780,8 @@
     "solarPower": 0,
     "load": 164,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in idle condition due to 0 pv. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_48_2026-08-13_20:15"
   },
   {
     "date": "2026-08-13",
@@ -747,7 +796,8 @@
     "solarPower": 0,
     "load": 171,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in discharging condition and in last 5 min due to min SOC BESS shutdown and Gensets were running ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_49_2026-08-13_22:15"
   },
   {
     "date": "2026-08-13",
@@ -762,7 +812,8 @@
     "solarPower": 0,
     "load": 173,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in idle condition due to 0 pv and minimum SOC ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_50_2026-08-13_23:25"
   },
   {
     "date": "2026-08-14",
@@ -777,7 +828,8 @@
     "solarPower": 35,
     "load": 149,
     "remarks": "Grid unhealthy, Solar and BESS feeding load, BESS is in discharging condition due to low pv. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_51_2026-08-14_14:40"
   },
   {
     "date": "2026-08-14",
@@ -792,7 +844,8 @@
     "solarPower": 152,
     "load": 148,
     "remarks": "Grid healthy, Solar and WAPDA feeding load, BESS is in charging condition. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_52_2026-08-14_16:15"
   },
   {
     "date": "2026-08-15",
@@ -807,7 +860,8 @@
     "solarPower": 221,
     "load": 192,
     "remarks": "Grid unhealthy, Solar feeding load, BESS is in charging condition. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_53_2026-08-15_12:40"
   },
   {
     "date": "2026-08-15",
@@ -822,7 +876,8 @@
     "solarPower": 169,
     "load": 175,
     "remarks": "Grid healthy, Solar and WAPDA feeding load, BESS is in idle condition due to Max SOC. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_54_2026-08-15_13:45"
   },
   {
     "date": "2026-08-15",
@@ -837,7 +892,8 @@
     "solarPower": 198,
     "load": 193,
     "remarks": "Grid unhealthy, Solar feeding load, BESS is in charging condition. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_55_2026-08-15_15:45"
   },
   {
     "date": "2026-08-15",
@@ -852,7 +908,8 @@
     "solarPower": 93,
     "load": 173,
     "remarks": "Grid healthy, Solar and WAPDA feeding load, BESS is in idle condition due to Max SOC. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_56_2026-08-15_17:00"
   },
   {
     "date": "2026-08-15",
@@ -867,7 +924,8 @@
     "solarPower": 0,
     "load": 181,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in disharging condition due to 0 PV. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_57_2026-08-15_19:15"
   },
   {
     "date": "2026-08-15",
@@ -882,7 +940,8 @@
     "solarPower": 0,
     "load": 169,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in idle condition due to  0 PV.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_58_2026-08-15_20:15"
   },
   {
     "date": "2026-08-15",
@@ -897,7 +956,8 @@
     "solarPower": 0,
     "load": 174,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in disharging condition due to 0 PV. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_59_2026-08-15_22:50"
   },
   {
     "date": "2026-08-15",
@@ -912,7 +972,8 @@
     "solarPower": 0,
     "load": 170,
     "remarks": "Grid healthy, WAPDA feeding load and  charge the BESS, BESS is in charging condition due to  0 PV.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_60_2026-08-15_23:00"
   },
   {
     "date": "2026-08-21",
@@ -927,7 +988,8 @@
     "solarPower": 179,
     "load": 182,
     "remarks": "Grid unhealthy, Solar & BESS feeding load, BESS is in disharging condition due to bad weather. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_61_2026-08-21_14:45"
   },
   {
     "date": "2026-08-21",
@@ -942,7 +1004,8 @@
     "solarPower": 61,
     "load": 143,
     "remarks": "Grid healthy, Solar & WAPDA feeding load, BESS is in idle condition. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_62_2026-08-21_17:00"
   },
   {
     "date": "2026-08-21",
@@ -957,7 +1020,8 @@
     "solarPower": 40,
     "load": 159,
     "remarks": "Grid unhealthy, Solar & BESS feeding load, BESS is in disharging condition due to bad weather. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_63_2026-08-21_17:20"
   },
   {
     "date": "2026-08-21",
@@ -972,7 +1036,8 @@
     "solarPower": 28,
     "load": 165,
     "remarks": "Grid healthy, Solar & WAPDA feeding load, BESS is in idle condition. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_64_2026-08-21_17:40"
   },
   {
     "date": "2026-08-21",
@@ -987,7 +1052,8 @@
     "solarPower": 0,
     "load": 170,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in disharging condition due to 0 PV. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_65_2026-08-21_19:15"
   },
   {
     "date": "2026-08-21",
@@ -1002,7 +1068,8 @@
     "solarPower": 0,
     "load": 154,
     "remarks": "Grid healthy, WAPDA feeding load and Charge BESS, BESS is in charging condition as Night-time setpoint of 215 kW configured from 8:15 PM to 4:30 AM to charge the BESS from WAPDA at 50–60 kW, keeping it available for backup in case of a WAPDA outage and avoiding DG operation. Load demand will be deducted from the 215 kW setpoint, with the remaining power used for BESS charging. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_66_2026-08-21_20:15"
   },
   {
     "date": "2026-08-21",
@@ -1017,7 +1084,8 @@
     "solarPower": 0,
     "load": 177,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in disharging condition due to 0 PV. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_67_2026-08-21_22:15"
   },
   {
     "date": "2026-08-21",
@@ -1032,7 +1100,8 @@
     "solarPower": 0,
     "load": 155,
     "remarks": "Grid healthy, WAPDA feeding load and Charge BESS, BESS is in charging condition as Night-time setpoint of 215 kW configured from 8:15 PM to 4:30 AM to charge the BESS from WAPDA at 50–60 kW, keeping it available for backup in case of a WAPDA outage and avoiding DG operation. Load demand will be deducted from the 215 kW setpoint, with the remaining power used for BESS charging. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_68_2026-08-21_23:15"
   },
   {
     "date": "2026-08-22",
@@ -1047,7 +1116,8 @@
     "solarPower": 139,
     "load": 157,
     "remarks": "Grid Unhealthy, Solar feeding the Load & Charge the BESS, BESS is in Charging condition.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_69_2026-08-22_10:30"
   },
   {
     "date": "2026-08-22",
@@ -1062,7 +1132,8 @@
     "solarPower": 138,
     "load": 146,
     "remarks": "Grid healthy, Solar & WAPDA feeding the load, BESS is in idle condition due to Max SOC",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_70_2026-08-22_12:45"
   },
   {
     "date": "2026-08-22",
@@ -1077,7 +1148,8 @@
     "solarPower": 19,
     "load": 176,
     "remarks": "Grid Unhealthy, Solar & BESS feeding the load, BESS is in discahrging condition due to low PV.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_71_2026-08-22_17:45"
   },
   {
     "date": "2026-08-22",
@@ -1092,7 +1164,8 @@
     "solarPower": 6,
     "load": 177,
     "remarks": "Grid healthy, Solar & WAPDA feeding the load, BESS is in idle condition. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_72_2026-08-22_18:25"
   },
   {
     "date": "2026-08-22",
@@ -1107,7 +1180,8 @@
     "solarPower": 0,
     "load": 157,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in disharging condition due to 0 PV. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_73_2026-08-22_19:15"
   },
   {
     "date": "2026-08-22",
@@ -1122,7 +1196,8 @@
     "solarPower": 0,
     "load": 161,
     "remarks": "Grid healthy, WAPDA feeding load and Charge BESS, BESS is in charging condition as Night-time setpoint of 215 kW configured from 8:15 PM to 4:30 AM to charge the BESS from WAPDA at 50–60 kW, keeping it available for backup in case of a WAPDA outage and avoiding DG operation. Load demand will be deducted from the 215 kW setpoint, with the remaining power used for BESS charging. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_74_2026-08-22_20:15"
   },
   {
     "date": "2026-08-22",
@@ -1137,7 +1212,8 @@
     "solarPower": 0,
     "load": 171,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in disharging condition due to 0 PV. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_75_2026-08-22_22:15"
   },
   {
     "date": "2026-08-22",
@@ -1152,7 +1228,8 @@
     "solarPower": 0,
     "load": 158,
     "remarks": "Grid healthy, WAPDA feeding load and Charge BESS, BESS is in charging condition as Night-time setpoint of 215 kW configured from 8:15 PM to 4:30 AM to charge the BESS from WAPDA at 50–60 kW, keeping it available for backup in case of a WAPDA outage and avoiding DG operation. Load demand will be deducted from the 215 kW setpoint, with the remaining power used for BESS charging. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_76_2026-08-22_23:15"
   },
   {
     "date": "2026-08-23",
@@ -1167,7 +1244,8 @@
     "solarPower": 192,
     "load": 195,
     "remarks": "Grid unhealthy, Solar feeding load, BESS is in idle condition due to Max SOC.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_77_2026-08-23_11:25"
   },
   {
     "date": "2026-08-23",
@@ -1182,7 +1260,8 @@
     "solarPower": 187,
     "load": 191,
     "remarks": "Grid healthy, Solar & WAPDA feeding the load, BESS is in idle condition due to Max SOX",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_78_2026-08-23_12:15"
   },
   {
     "date": "2026-08-23",
@@ -1197,7 +1276,8 @@
     "solarPower": 0,
     "load": 171,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in disharging condition due to 0 PV. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_79_2026-08-23_19:15"
   },
   {
     "date": "2026-08-23",
@@ -1212,7 +1292,8 @@
     "solarPower": 0,
     "load": 169,
     "remarks": "Grid healthy, WAPDA feeding load and Charge BESS, BESS is in charging condition as Night-time setpoint of 215 kW configured from 8:15 PM to 4:30 AM to charge the BESS from WAPDA at 50–60 kW, keeping it available for backup in case of a WAPDA outage and avoiding DG operation. Load demand will be deducted from the 215 kW setpoint, with the remaining power used for BESS charging. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_80_2026-08-23_20:15"
   },
   {
     "date": "2026-08-23",
@@ -1227,7 +1308,8 @@
     "solarPower": 0,
     "load": 171,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in disharging condition due to 0 PV. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_81_2026-08-23_22:15"
   },
   {
     "date": "2026-08-23",
@@ -1242,7 +1324,8 @@
     "solarPower": 0,
     "load": 159,
     "remarks": "Grid healthy, WAPDA feeding load and Charge BESS, BESS is in charging condition as Night-time setpoint of 215 kW configured from 8:15 PM to 4:30 AM to charge the BESS from WAPDA at 50–60 kW, keeping it available for backup in case of a WAPDA outage and avoiding DG operation. Load demand will be deducted from the 215 kW setpoint, with the remaining power used for BESS charging. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_82_2026-08-23_23:15"
   },
   {
     "date": "2026-08-24",
@@ -1257,7 +1340,8 @@
     "solarPower": 71,
     "load": 206,
     "remarks": "Grid unhealthy, Solar feeding load, BESS is in idle condition due to Max SOC.",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_83_2026-08-24_11:55"
   },
   {
     "date": "2026-08-24",
@@ -1272,7 +1356,8 @@
     "solarPower": 59,
     "load": 178,
     "remarks": "Grid healthy, Solar & WAPDA feeding the load and charge the BESS, BESS is in charging condition .",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_84_2026-08-24_14:50"
   },
   {
     "date": "2026-08-24",
@@ -1287,7 +1372,8 @@
     "solarPower": 0,
     "load": 167,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in disharging condition due to 0 PV. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_85_2026-08-24_19:15"
   },
   {
     "date": "2026-08-24",
@@ -1302,7 +1388,8 @@
     "solarPower": 0,
     "load": 153,
     "remarks": "Grid healthy, WAPDA feeding load, BESS is in idle condition due to 0PV.  ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_86_2026-08-24_20:15"
   },
   {
     "date": "2026-08-24",
@@ -1317,7 +1404,8 @@
     "solarPower": 0,
     "load": 166,
     "remarks": "Grid unhealthy, BESS feeding load, BESS is in disharging condition due to 0 PV. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_87_2026-08-24_22:15"
   },
   {
     "date": "2026-08-24",
@@ -1332,6 +1420,7 @@
     "solarPower": 0,
     "load": 159,
     "remarks": "Grid healthy, WAPDA feeding load and Charge BESS, BESS is in charging condition as Night-time setpoint of 190 kW configured from 10:20 PM to 4:30 AM to charge the BESS from WAPDA at 20-30 kW, keeping it available for backup in case of a WAPDA outage and avoiding DG operation. Load demand will be deducted from the 190 kW setpoint, with the remaining power used for BESS charging. ",
-    "genPower": 0
+    "genPower": 0,
+    "_id": "seed_88_2026-08-24_23:15"
   }
 ]

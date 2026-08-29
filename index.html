@@ -715,7 +715,7 @@ select:focus,input:focus,textarea:focus{border-color:var(--signature);}
     <div style="margin-top:14px; display:flex; gap:10px;">
       <button class="btn" id="addEntry">Save entry</button>
       <button class="btn secondary" id="exportCsv">Export all as CSV</button>
-      <button class="btn secondary" id="exportJson">Export all as JSON</button>
+      <button class="btn secondary" id="exportJson">Export all as JSON</button><span style="align-self:center;font-size:12px;color:#8B9AB3;">Publish updates: replace GitHub <b>logs.json</b> with the exported JSON.</span>
     </div>
   </div>
 
@@ -735,7 +735,7 @@ select:focus,input:focus,textarea:focus{border-color:var(--signature);}
   </div>
 
   <div class="foot-note">
-    Dashboard readings are loaded from the shared GitHub <b>logs.json</b> file. To publish new readings for everyone, update logs.json in the GitHub repository and commit the change. The Save entry button remains available for local/browser use.
+    Shared readings are loaded from GitHub from logs.json. Changes made in this browser are saved locally; to publish new readings for everyone, export JSON and replace logs.json in the GitHub repository.
     Historical rows (07–24 Aug 2026) were imported from the original BESS Daily Operation Log Book — including the 16–20 Aug gap, logged as
     "system on bypass due to a faulty breaker; readings resumed after breaker replacement." Charge-source % is estimated from instantaneous
     power readings (not integrated energy), so treat it as indicative rather than a metered figure. Generator (DG) power defaults to 0 kW on
@@ -806,29 +806,43 @@ async function storageSet(key, value){
 }
 
 async function loadEntries(){
-  // Central source: logs.json in the same GitHub Pages folder.
-  // This keeps every visitor on the same latest dataset after a GitHub commit.
+  // GitHub Pages master source:
+  // logs.json sits beside index.html and is shared by every visitor.
+  // Cache-busting prevents an older browser/CDN copy from winning.
   try{
-    const url = new URL("./logs.json?v=" + Date.now(), window.location.href);
-    const r = await fetch(url, {cache:"no-store"});
-    if(r.ok){
-      const parsed = await r.json();
-      if(Array.isArray(parsed)) return parsed;
+    const url = new URL('./logs.json', window.location.href);
+    url.searchParams.set('v', Date.now().toString());
+    const response = await fetch(url.href, {cache:'no-store'});
+    if(response.ok){
+      const parsed = await response.json();
+      if(Array.isArray(parsed) && parsed.length) return parsed;
     }
-  }catch(e){ console.warn("Central logs unavailable; using local/seed data.", e); }
+  }catch(e){
+    console.warn('Central logs.json could not be loaded; using local fallback.', e);
+  }
+
+  // Fallback for offline/local use only.
   const raw = await storageGet(ENTRY_KEY);
   if(raw){
-    try{ const parsed = JSON.parse(raw); if(Array.isArray(parsed) && parsed.length) return parsed; }catch(e){}
+    try{
+      const parsed = JSON.parse(raw);
+      if(Array.isArray(parsed) && parsed.length) return parsed;
+    }catch(e){}
   }
-  await storageSet(ENTRY_KEY, JSON.stringify(SEED_ENTRIES));
   return JSON.parse(JSON.stringify(SEED_ENTRIES));
 }
+
 async function saveEntries(){
   ENTRIES.sort((a,b)=>{
     if(a.date!==b.date) return a.date<b.date?-1:1;
     return a.time<b.time?-1:(a.time>b.time?1:0);
   });
-  try{ await storageSet(ENTRY_KEY, JSON.stringify(ENTRIES)); }catch(e){ console.error('save failed', e); }
+
+  // Browser-local save is retained for offline/manual editing.
+  // To publish these changes for everyone, use Export all as JSON
+  // and replace logs.json in the GitHub repository.
+  try{ await storageSet(ENTRY_KEY, JSON.stringify(ENTRIES)); }
+  catch(e){ console.error('local save failed', e); }
 }
 async function loadSchedule(){
   const raw = await storageGet(SCHEDULE_KEY);
